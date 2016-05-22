@@ -2,7 +2,7 @@ FROM java:8
 MAINTAINER Uta Kapp "uta.kapp@emooti.org"
 
 ENV REFRESHED_AT 2016-05-22
-RUN curl http://www.mirrorservice.org/sites/ftp.apache.org/activemq/5.11.1/apache-activemq-5.11.1-bin.tar.gz | tar -xz
+RUN http://archive.apache.org/dist/activemq/5.11.1/apache-activemq-5.11.1-bin.tar.gz | tar -xz
 
 EXPOSE 61612 61613 61616 8161
 
